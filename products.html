@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Products — Rivoningo Hardware</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topnav">
+      <a class="logo" href="index.html">RIVONINGO HARDWARE</a>
+      <div class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container products-page">
+    <section class="products-listing">
+      <h2>Products</h2>
+      <div id="products-grid" class="product-grid"></div>
+    </section>
+
+    <aside class="filter-panel">
+      <div class="panel">
+        <div class="panel-title">Categories</div>
+        <div class="categories">
+          <button class="chip" data-cat="all">All</button>
+          <button class="chip" data-cat="wood">Wood</button>
+          <button class="chip" data-cat="bricks">Bricks</button>
+          <button class="chip" data-cat="tools">Tools</button>
+          <button class="chip" data-cat="paint">Paint</button>
+        </div>
+      </div>
+
+      <div class="cart-panel">
+        <h3>Cart</h3>
+        <div id="cart-items-2">No items</div>
+        <button id="checkout" class="btn">Checkout</button>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">&copy; <span id="year2"></span> Rivoningo Hardware</footer>
+  <script src="script.js"></script>
+</body>
+</html>

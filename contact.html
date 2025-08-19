@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact — Rivoningo Hardware</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topnav">
+      <a class="logo" href="index.html">RIVONINGO HARDWARE</a>
+      <div class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+    <section class="contact-panel">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> 015 887 3452</p>
+      <p><strong>Address:</strong> Rivoningo Hardware St, City</p>
+      <p><strong>Email:</strong> rivoningoriri@gmail.com</p>
+
+      <form id="contact-form" class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" rows="6" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <aside class="contact-sidebar">
+      <div class="panel">
+        <div class="panel-title">Quick Products</div>
+        <div id="sidebar-products-2" class="product-grid small"></div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">&copy; <span id="year4"></span> Rivoningo Hardware</footer>
+  <script src="script.js"></script>
+</body>
+</html>
